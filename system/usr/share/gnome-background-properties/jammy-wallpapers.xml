@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper>
+        <name>DarkRed</name>
+        <name xml:lang="de">DarkRed</name>
+        <name xml:lang="en_GB">DarkRed</name>
+        <name xml:lang="fr">DarkRed</name>
+        <name xml:lang="hr">DarkRed</name>
+        <filename>/usr/share/backgrounds/blackbuntu-darkred-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>Default</name>
+        <name xml:lang="de">Default</name>
+        <name xml:lang="en_GB">Default</name>
+        <name xml:lang="fr">Default</name>
+        <name xml:lang="hr">Default</name>
+        <filename>/usr/share/backgrounds/blackbuntu-default-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>Fusion</name>
+        <name xml:lang="de">Fusion</name>
+        <name xml:lang="en_GB">Fusion</name>
+        <name xml:lang="fr">Fusion</name>
+        <name xml:lang="hr">Fusion</name>
+        <filename>/usr/share/backgrounds/blackbuntu-fusion-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>GrayTeam</name>
+        <name xml:lang="de">GrayTeam</name>
+        <name xml:lang="en_GB">GrayTeam</name>
+        <name xml:lang="fr">GrayTeam</name>
+        <name xml:lang="hr">GrayTeam</name>
+        <filename>/usr/share/backgrounds/blackbuntu-grayteam-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>Keyboard</name>
+        <name xml:lang="de">Keyboard</name>
+        <name xml:lang="en_GB">Keyboard</name>
+        <name xml:lang="fr">Keyboard</name>
+        <name xml:lang="hr">Keyboard</name>
+        <filename>/usr/share/backgrounds/blackbuntu-keyboard-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>Simple</name>
+        <name xml:lang="de">Simple</name>
+        <name xml:lang="en_GB">Simple</name>
+        <name xml:lang="fr">Simple</name>
+        <name xml:lang="hr">Simple</name>
+        <filename>/usr/share/backgrounds/blackbuntu-simple-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>Vintage</name>
+        <name xml:lang="de">Vintage</name>
+        <name xml:lang="en_GB">Vintage</name>
+        <name xml:lang="fr">Vintage</name>
+        <name xml:lang="hr">Vintage</name>
+        <filename>/usr/share/backgrounds/blackbuntu-vintage-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>Waves</name>
+        <name xml:lang="de">Waves</name>
+        <name xml:lang="en_GB">Waves</name>
+        <name xml:lang="fr">Waves</name>
+        <name xml:lang="hr">Waves</name>
+        <filename>/usr/share/backgrounds/blackbuntu-waves-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+</wallpapers>

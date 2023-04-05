@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <wallpaper>
+        <name>Blackbuntu</name>
+        <name xml:lang="az">Blackbuntu</name>
+        <name xml:lang="ca">Blackbuntu</name>
+        <name xml:lang="ca@valencia">Blackbuntu</name>
+        <name xml:lang="cs">Blackbuntu</name>
+        <name xml:lang="cy">Blackbuntu</name>
+        <name xml:lang="de">Blackbuntu</name>
+        <name xml:lang="en_GB">Blackbuntu</name>
+        <name xml:lang="es">Blackbuntu</name>
+        <name xml:lang="fr">Blackbuntu</name>
+        <name xml:lang="ms">Blackbuntu</name>
+        <name xml:lang="oc">Blackbuntu</name>
+        <name xml:lang="pl">Blackbuntu</name>
+        <name xml:lang="pt">Blackbuntu</name>
+        <name xml:lang="ru">Blackbuntu</name>
+        <name xml:lang="sl">Blackbuntu</name>
+        <name xml:lang="tr">Blackbuntu</name>
+        <name xml:lang="uk">Blackbuntu</name>
+        <name xml:lang="uz">Blackbuntu</name>
+        <name xml:lang="zh_CN">Blackbuntu</name>
+        <filename>/usr/share/backgrounds/blackbuntu-redteam-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>PurpleTeam</name>
+        <name xml:lang="az">PurpleTeam</name>
+        <name xml:lang="ca">PurpleTeam</name>
+        <name xml:lang="ca@valencia">PurpleTeam</name>
+        <name xml:lang="cs">PurpleTeam</name>
+        <name xml:lang="cy">PurpleTeam</name>
+        <name xml:lang="de">PurpleTeam</name>
+        <name xml:lang="en_GB">PurpleTeam</name>
+        <name xml:lang="es">PurpleTeam</name>
+        <name xml:lang="fr">PurpleTeam</name>
+        <name xml:lang="ms">PurpleTeam</name>
+        <name xml:lang="oc">PurpleTeam</name>
+        <name xml:lang="pl">PurpleTeam</name>
+        <name xml:lang="pt">PurpleTeam</name>
+        <name xml:lang="ru">PurpleTeam</name>
+        <name xml:lang="sl">PurpleTeam</name>
+        <name xml:lang="tr">PurpleTeam</name>
+        <name xml:lang="uk">PurpleTeam</name>
+        <name xml:lang="uz">PurpleTeam</name>
+        <name xml:lang="zh_CN">PurpleTeam</name>
+        <filename>/usr/share/backgrounds/blackbuntu-purpleteam-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+</wallpapers>

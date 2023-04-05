@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+#
+# [Release]: Blackbuntu 22.04.2 LTS amd64
+# [Website]: https://blackbuntu.org/p/releases/?ver=22.04.1
+# [License]: http://www.gnu.org/licenses/gpl-3.0.html
+#
+# Ascii Art : https://www.askapache.com/online-tools/figlet-ascii/
+
+## Help Menu
+## ---------
+function helpmenu()
+{
+	echo 
+	echo "Usage: blackbuntu [-h] [-u] [-s] [-c]"
+	echo
+	echo "Options:"
+	echo " -h, --help           show this help"
+	echo " -u, --update         update the packages to their latest version"
+	echo " -s, --system         update the core distribution"
+	echo " -c, --clean          delete all temporary files, traces and logs"	
+}
+
+## Callback
+## --------
+while test $# -gt 0;
+do
+	case "$1" in
+    	-h|--help)
+      		helpmenu
+      		exit 1
+      		;;
+      	-u|--update)
+      		/usr/share/blackbuntu/usr/bin/updater
+        	exit 1
+      		;;
+    	-s|--system)
+      		/usr/share/blackbuntu/usr/bin/system
+        	exit 1
+      		;;
+    	-c|--clean)
+      		/usr/share/blackbuntu/usr/bin/cleaner
+        	exit 1
+      		;;
+      	*)
+      		helpmenu
+      		exit 1
+      		;;
+  	esac
+done
+
+## Check Argument
+## --------------
+if [ $# -eq 0 ]
+then
+    helpmenu
+fi

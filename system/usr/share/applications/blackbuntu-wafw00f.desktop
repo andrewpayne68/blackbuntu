@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Categories=Web Applications;
+Exec=sh -c 'wafw00f -h; $SHELL'
+Icon=/usr/share/icons/blackbuntu/default.png
+Name=Wafw00f
+Terminal=true
+Type=Application

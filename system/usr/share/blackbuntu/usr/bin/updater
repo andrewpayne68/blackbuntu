@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+#
+# [Release]: Blackbuntu 22.04.2 LTS amd64
+# [Website]: https://blackbuntu.org/p/releases/?ver=22.04.1
+# [License]: http://www.gnu.org/licenses/gpl-3.0.html
+
+## Update System
+## -------------
+function updatesystem()
+{
+	## Github Update
+	## -------------
+	cd /tmp/
+	sudo wget -q -O /tmp/update.sh "https://raw.githubusercontent.com/neoslab/blackbuntu/master/update.sh"
+	if [ -f "/tmp/update.sh" ];
+	then
+		sudo chmod +x /tmp/update.sh
+		sudo bash /tmp/update.sh
+		sudo rm -f /tmp/update.sh
+	fi
+}
+
+## Remove unwanted launchers
+## -------------------------
+function removelaunchers()
+{
+	sudo rm -rf /usr/share/applications/kde4
+	sudo rm -f /usr/share/applications/arduino.desktop
+	sudo rm -f /usr/share/applications/edb.desktop
+	sudo rm -f /usr/share/applications/ettercap.desktop
+	sudo rm -f /usr/share/applications/gtkhash.desktop
+	sudo rm -f /usr/share/applications/guymager.desktop
+	sudo rm -f /usr/share/applications/lstopo.desktop
+	sudo rm -f /usr/share/applications/lynis.desktop
+	sudo rm -f /usr/share/applications/ophcrack.desktop
+	sudo rm -f /usr/share/applications/org.wireshark.Wireshark.desktop
+	sudo rm -f /usr/share/applications/texdoctk.desktop
+	sudo rm -f /usr/share/applications/torbrowser-settings.desktop
+	sudo rm -f /usr/share/applications/ubiquity.desktop
+}
+
+## Terminate
+## ---------
+function terminate()
+{
+	echo "Process completed"
+	sleep 1s
+}
+
+## Launch
+## ------
+function launch()
+{
+	flushtime=`date +%s.%N`
+
+	updatesystem
+	removelaunchers
+	terminate
+
+	endtime=`date +%s.%N`
+	runtime=$( echo "$endtime - $flushtime" | bc -l )
+	echo "Executed within ${runtime} seconds"
+}
+
+## -------- ##
+## Callback ##
+## -------- ##
+
+launch
