@@ -80,28 +80,28 @@ The installation of **Blackbuntu** as primary operating system is recommended fo
 
 #### Tools
 
-Currently Blackbuntu includes [800 pre-installed libraries and tools. ](https://github.com/neoslab/blackbuntu/blob/main/TOOLS.md) dedicated to ethical hacking, pentesting and cybersecurity.
+Currently Blackbuntu includes [800 pre-installed libraries and tools. ](https://github.com/blackbuntu/system/blob/main/TOOLS.md) dedicated to ethical hacking, pentesting and cybersecurity.
 
 * * *
 
 #### Screenshots
 
-![image-1](https://github.com/neoslab/blackbuntu/raw/main/screenshots/1.png)
-![image-2](https://github.com/neoslab/blackbuntu/raw/main/screenshots/2.png)
-![image-3](https://github.com/neoslab/blackbuntu/raw/main/screenshots/3.png)
-![image-4](https://github.com/neoslab/blackbuntu/raw/main/screenshots/4.png)
-![image-5](https://github.com/neoslab/blackbuntu/raw/main/screenshots/5.png)
-![image-6](https://github.com/neoslab/blackbuntu/raw/main/screenshots/6.png)
-![image-7](https://github.com/neoslab/blackbuntu/raw/main/screenshots/7.png)
-![image-8](https://github.com/neoslab/blackbuntu/raw/main/screenshots/8.png)
-![image-9](https://github.com/neoslab/blackbuntu/raw/main/screenshots/9.png)
-![image-10](https://github.com/neoslab/blackbuntu/raw/main/screenshots/10.png)
-![image-11](https://github.com/neoslab/blackbuntu/raw/main/screenshots/11.png)
-![image-12](https://github.com/neoslab/blackbuntu/raw/main/screenshots/12.png)
-![image-13](https://github.com/neoslab/blackbuntu/raw/main/screenshots/13.png)
-![image-14](https://github.com/neoslab/blackbuntu/raw/main/screenshots/14.png)
-![image-15](https://github.com/neoslab/blackbuntu/raw/main/screenshots/15.png)
-![image-16](https://github.com/neoslab/blackbuntu/raw/main/screenshots/16.png)
+![image-1](https://github.com/blackbuntu/system/raw/main/screenshots/1.png)
+![image-2](https://github.com/blackbuntu/system/raw/main/screenshots/2.png)
+![image-3](https://github.com/blackbuntu/system/raw/main/screenshots/3.png)
+![image-4](https://github.com/blackbuntu/system/raw/main/screenshots/4.png)
+![image-5](https://github.com/blackbuntu/system/raw/main/screenshots/5.png)
+![image-6](https://github.com/blackbuntu/system/raw/main/screenshots/6.png)
+![image-7](https://github.com/blackbuntu/system/raw/main/screenshots/7.png)
+![image-8](https://github.com/blackbuntu/system/raw/main/screenshots/8.png)
+![image-9](https://github.com/blackbuntu/system/raw/main/screenshots/9.png)
+![image-10](https://github.com/blackbuntu/system/raw/main/screenshots/10.png)
+![image-11](https://github.com/blackbuntu/system/raw/main/screenshots/11.png)
+![image-12](https://github.com/blackbuntu/system/raw/main/screenshots/12.png)
+![image-13](https://github.com/blackbuntu/system/raw/main/screenshots/13.png)
+![image-14](https://github.com/blackbuntu/system/raw/main/screenshots/14.png)
+![image-15](https://github.com/blackbuntu/system/raw/main/screenshots/15.png)
+![image-16](https://github.com/blackbuntu/system/raw/main/screenshots/16.png)
 
 * * *
 
