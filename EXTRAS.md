@@ -138,8 +138,16 @@ sudo apt-get -y install kdenlive
 
 * * *
 
-#### 16. Install `SqliteBrowser`
+#### 16. Install `sqliteBrowser`
 
 ```shell
 sudo apt-get -y install sqlitebrowser
+```
+
+* * *
+
+#### 17. Install `subversion`
+
+```shell
+sudo apt-get -y install subversion
 ```
