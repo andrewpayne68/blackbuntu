@@ -142,7 +142,7 @@ function disableapport()
 ## ------------------------
 function removeunwanted()
 {
-	apt-get -y purge --auto-remove aisleriot gnome-initial-setup gnome-mahjongg gnome-mines gnome-sudoku thunderbird transmission libreoffice*
+	apt-get -y purge --auto-remove aisleriot gnome-initial-setup gnome-mahjongg gnome-mines gnome-sudoku gstreamer1.0-vaapi thunderbird transmission libreoffice*
 }
 
 ## Clone Github repository
@@ -215,7 +215,7 @@ function installperl()
 ## -----------------------
 function installcommons()
 {
-	apt-get -y install abootimg android-sdk apache2 apt-transport-https apt-utils atftp autoconf autopsy binutils binwalk build-essential cabextract cherrytree chirp cmake curl cutycapt debootstrap default-jdk default-jre dirmngr dkms dos2unix dpkg-sig easytag fuse3 fwbuilder g++ gcc gconf2 ghex git gnuradio gpg gqrx-sdr gr-air-modes gr-iqbal gr-osmosdr gss-ntlmssp hackrf hexedit httrack inspectrum jq kate keepassxc macchanger make mtools net-tools ninja-build openvpn pkg-config proxychains qemu rake reprepro screen screenfetch secure-delete simplescreenrecorder sqlitebrowser socat software-properties-common squashfs-tools synaptic tor torbrowser-launcher tree wget xorriso
+	apt-get -y install abootimg android-sdk apache2 apt-transport-https apt-utils atftp autoconf autopsy binutils binwalk build-essential cabextract cherrytree chirp cmake curl cutycapt debootstrap default-jdk default-jre dirmngr dkms dos2unix dpkg-sig easytag fuse3 fwbuilder g++ gcc gconf2 ghex git gnuradio gpg gqrx-sdr gr-air-modes gr-iqbal gr-osmosdr gss-ntlmssp hackrf hexedit httrack inspectrum jq kate keepassxc macchanger make mtools net-tools ninja-build openvpn pkg-config proxychains qemu rake reprepro screen screenfetch secure-delete simplescreenrecorder sqlitebrowser socat software-properties-common squashfs-tools synaptic terminator tor torbrowser-launcher tree wget xorriso
 }
 
 ## Install files roller
