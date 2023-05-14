@@ -100,23 +100,21 @@ function deletefirefoxlogs()
     esac
 }
 
-## Delete Cache Thumbnails
-## -----------------------
-function deletecachethumbs()
+## Delete Cache Directory
+## ----------------------
+function deletecachedirs()
 {
-    read -p "[?] Do you want to delete user cache thumbnails? [y/N] " yn
+    read -p "[?] Do you want to delete user cache directory? [y/N] " yn
     case $yn in
         [Yy]* )
-			securedelete /home/$USER/.cache/thumbnails/fail
-			securedelete /home/$USER/.cache/thumbnails/large
-			securedelete /home/$USER/.cache/thumbnails/normal
-			echo -e "[+] User cache thumbnails deleted\n"
+			rm -rf /home/$USER/.cache
+			echo -e "[+] User cache directory deleted\n"
             ;;
         [Nn]* )
-			echo -e "[!] User cache thumbnails not deleted\n"
+			echo -e "[!] User cache directory not deleted\n"
             ;;
         * )
-            deletecachethumbs
+            deletecachetemp
             ;;
     esac
 }
@@ -170,7 +168,7 @@ function deletesnapdir()
     read -p "[?] Do you want to delete Snap directory? [y/N] " yn
     case $yn in
         [Yy]* )
-			securedelete /home/$USER/snap
+			rm -rf /home/$USER/snap
 			echo -e "[+] Snap directory deleted\n"
             ;;
         [Nn]* )
@@ -345,7 +343,7 @@ function launch()
 	warning
 	
 	deletefirefoxlogs
-	deletecachethumbs
+	deletecachedirs
 	deletefileshistory
 	deletesshkeys
 	deletesnapdir

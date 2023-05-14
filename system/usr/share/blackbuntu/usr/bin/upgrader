@@ -8,10 +8,10 @@
 ## --------------
 function upgradesystem()
 {
-	## Github Update
-	## -------------
+	## Github Upgrade
+	## --------------
 	cd /tmp/
-	sudo wget -q -O /tmp/upgrade.sh "https://raw.githubusercontent.com/neoslab/blackbuntu/master/upgrade.sh"
+	sudo wget -q -O /tmp/upgrade.sh "https://raw.githubusercontent.com/blackbuntu/system/master/upgrade.sh"
 	if [ -f "/tmp/upgrade.sh" ];
 	then
 		sudo chmod +x /tmp/upgrade.sh

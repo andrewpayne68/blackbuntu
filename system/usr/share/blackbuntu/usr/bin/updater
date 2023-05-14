@@ -11,7 +11,7 @@ function updatesystem()
 	## Github Update
 	## -------------
 	cd /tmp/
-	sudo wget -q -O /tmp/update.sh "https://raw.githubusercontent.com/neoslab/blackbuntu/master/update.sh"
+	sudo wget -q -O /tmp/update.sh "https://raw.githubusercontent.com/blackbuntu/system/master/update.sh"
 	if [ -f "/tmp/update.sh" ];
 	then
 		sudo chmod +x /tmp/update.sh
