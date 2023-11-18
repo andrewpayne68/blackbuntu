@@ -47,7 +47,7 @@ function showbanner()
 	echo -e "${t_error}                                      v22.04 LTS amd64 ${t_reset}"
 	echo
 	echo -e "${t_valid}[i] [Package]: blackbuntu-builder${t_reset}"
-	echo -e "${t_valid}[i] [Website]: https://blackbuntu.org${t_reset}"
+	echo -e "${t_valid}[i] [Website]: https://blackbuntu.uk${t_reset}"
   	sleep 3s
 }
 
@@ -109,8 +109,8 @@ function aptsources()
 	add-apt-repository -y multiverse
 
 	cd /tmp/
-	wget --quiet -O - https://packages.blackbuntu.org/pubkey.asc | tee /etc/apt/keyrings/blackbuntu-pubkey.asc >/dev/null 2>&1
-	echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/blackbuntu-pubkey.asc] https://packages.blackbuntu.org $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/blackbuntu.list >/dev/null 2>&1
+	wget --quiet -O - https://packages.blackbuntu.uk/pubkey.asc | tee /etc/apt/keyrings/blackbuntu-pubkey.asc >/dev/null 2>&1
+	echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/blackbuntu-pubkey.asc] https://packages.blackbuntu.uk $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/blackbuntu.list >/dev/null 2>&1
 	apt-get -y update
 	cd /root/
 }
@@ -150,7 +150,7 @@ function removeunwanted()
 function clonegithub()
 {
 	cd /tmp/
-	git clone https://github.com/neoslab/blackbuntu
+	git clone https://github.com/andrewpayne68/blackbuntu.git
 	cd /root/
 }
 
